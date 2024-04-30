@@ -1,0 +1,83 @@
+{
+    "os": "Linux-5.15.0-102-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2024-04-22T11:03:45.763951",
+    "startedAt": "2024-04-22T11:03:45.306603",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-c",
+        "config/nomad.yaml"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train/train.py",
+    "git": {
+        "remote": "https://github.com/robodhruv/visualnav-transformer.git",
+        "commit": "5b4c8165d10f0c9246e25cb530a026f8924e61cd"
+    },
+    "email": null,
+    "root": "/media/vishnu/New Volume/Acads/Sem2/RLC/project/visualnav-transformer",
+    "host": "vishnu-Inspiron-5570",
+    "username": "vishnu",
+    "executable": "/home/vishnu/anaconda3/envs/vint_deployment/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1848.368,
+        "min": 400.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4000.0
+        },
+        {
+            "current": 786.944,
+            "min": 400.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 68.2012939453125,
+            "used": 51.10025405883789
+        }
+    },
+    "memory": {
+        "total": 15.513080596923828
+    }
+}

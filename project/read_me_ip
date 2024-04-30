@@ -1,0 +1,12 @@
+ssh ubuntu@{Ip_Rpi4}
+10.156.248.233 => Ip of RPi4 (seminar hall,computer lab)
+10.156.248.141 => Ip of RPi4 (rtes class)
+use ifconfig for getting pc ip address
+
+TurtleBot/bashrc:
+MASTER:PC ip address
+HOSTNAME:rpi4 ip address
+
+PC/bashrc:
+MASTER:PC ip address
+HOSTNAME:PC ip address
